@@ -18,7 +18,7 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://13.127.148.217:9000/</sonar.host.url>
+		<sonar.host.url>http://43.204.214.66:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>8975758051</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,13 +42,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.238.213.110:8081/repository/maven-releases/</url>
+	      <url>http://13.231.98.198:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.238.213.110:8081/repository/maven-snapshots/</url>
+	      <url>http://13.231.98.198:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
