@@ -18,7 +18,7 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://43.204.214.66:9000/</sonar.host.url>
+		<sonar.host.url>http://13.232.239.110:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>8975758051</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,10 +38,15 @@
 	</dependencies>
 	
 	<distributionManagement>    
-	    <snapshotRepository>
+	         <repository>
+              <id>nexus</id>
+              <name>loomtex  Releases Nexus Repository</name>
+              <url>http://13.114.103.37:8081/repository/maven-releases/</url>
+            </repository>
+		<snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.46.30:8081/repository/maven-snapshots/</url>
+	      <url>http://13.114.103.37:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
