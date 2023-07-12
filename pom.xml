@@ -41,12 +41,12 @@
 	         <repository>
               <id>nexus</id>
               <name>loomtex  Releases Nexus Repository</name>
-              <url>http://13.114.103.37:8081/repository/maven-releases/</url>
+              <url>http://16.171.175.55:8081/repository/maven-releases/</url>
             </repository>
 		<snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.114.103.37:8081/repository/maven-snapshots/</url>
+	      <url>http://16.171.175.55:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
